@@ -17,7 +17,7 @@ while repeat is True:
     time.sleep(1)
     grey.clear()
 
-    print(f"Your Discord pain sentence is {finished_sentence}")
+    print(f"Your Discord pain sentence is:\n{finished_sentence}\n")
 
     while end_check is False:
         continue_on = (input("Would you like to run this again or quit? Answer with 'yes' or 'no':")).lower()
